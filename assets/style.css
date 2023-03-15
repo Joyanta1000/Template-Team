@@ -1,0 +1,80 @@
+.navBarCustom {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+  border: unset;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+  min-height: 60px;
+  padding: 10px 0px 12px 0px;
+  margin-bottom: unset;
+}
+.navBarCustom .navbarNavCustom > li > a {
+  color: #ffffff;
+}
+
+.imgCustom {
+  width: 100%;
+  height: 100vh !important;
+}
+
+.serviceHeadCustom {
+  background-color: #fbd857;
+}
+.serviceDescription {
+  line-height: 1.5;
+}
+.iconCustom {
+  cursor: pointer;
+}
+.iconSec {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.serviceCustomBread {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.serviceCustomDescription {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footerMiniSubDes{
+    padding-top: 36px;
+  }
+
+@media screen and (max-width: 767px) {
+  .imgCustom {
+    height: 30vh !important;
+  }
+  .headTwo {
+    font-size: medium;
+  }
+  .footerMiniSubDes{
+    padding-top: 10px;
+    text-align: justify;
+  }
+  .footerFollow{
+    padding-top: 10px;
+  }
+  .navbarCustomBrand{
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+  .navbarCollapseCustom{
+    background: #13100fad;
+  }
+}
+.footer-bs {
+    background-color: #3c3d41;
+	color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.navBarToggleCustom{
+    margin-top: unset;
+    margin-right: 30px;
+}
