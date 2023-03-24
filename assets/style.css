@@ -27,9 +27,9 @@
 .iconCustom {
   cursor: pointer;
 }
-.iconSec {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+.serviceCustom{
+  height: 100vh;
 }
 .serviceCustomBread {
   padding-top: 30px;
