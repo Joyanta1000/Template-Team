@@ -15,7 +15,6 @@
 
 .imgCustom {
   width: 100%;
-  height: 100vh !important;
 }
 
 .serviceHeadCustom {
@@ -28,12 +27,13 @@
   cursor: pointer;
 }
 
-.serviceCustom{
-  height: 100vh;
-}
+
 .serviceCustomBread {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.serviceCustomBreadSub {
+  padding: 0px 0px 20px 0px;
 }
 .serviceCustomDescription {
   padding-top: 30px;
@@ -43,13 +43,25 @@
 .footerMiniSubDes{
     padding-top: 36px;
   }
-
+.headTwo{
+  margin-bottom: 20px !important;
+}
+@media screen and (min-width: 1000px) {
+  .imgCustom {
+    height: 100vh !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .imgCustom {
+    height: 50vh !important;
+  }
+}
 @media screen and (max-width: 767px) {
   .imgCustom {
     height: 30vh !important;
   }
   .headTwo {
-    font-size: medium;
+    /* font-size: medium; */
   }
   .footerMiniSubDes{
     padding-top: 10px;
@@ -66,6 +78,18 @@
     background: #13100fad;
   }
 }
+
+@media screen and (min-width: 767) {
+  .serviceCustom{
+    height: 100vh;
+  }
+  .serviceHeadCustom{
+    height: 50vh;
+  }
+  .serviceMenuCustom{
+    height: 50vh;
+  }
+}
 .footer-bs {
     background-color: #3c3d41;
 	color: white;
@@ -77,4 +101,19 @@
 .navBarToggleCustom{
     margin-top: unset;
     margin-right: 30px;
+}
+
+
+.cusSpacing{
+  padding: 0px 20px 0px 20px;
+}
+
+.cusThumbnail{
+  border: unset !important;
+  -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+}
+
+.serviceCustomArrow {
+  padding-bottom: 30px;
 }
