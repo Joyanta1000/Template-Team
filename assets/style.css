@@ -117,3 +117,13 @@
 .serviceCustomArrow {
   padding-bottom: 30px;
 }
+
+.textController {
+  word-wrap: break-word;
+  font-size: 13px;
+}
+
+.footerClass{
+  background-color: rgb(213 214 212 / 68%);
+  padding: 30px 0px 30px 0px;
+}
