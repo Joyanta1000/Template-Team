@@ -101,6 +101,7 @@
 .navBarToggleCustom{
     margin-top: unset;
     margin-right: 30px;
+    border: none !important;;
 }
 
 
